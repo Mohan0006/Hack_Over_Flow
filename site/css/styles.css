@@ -138,7 +138,7 @@ body {
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/Oxygen.webp') no-repeat;
+  background: url('../images/oxygen.webp') no-repeat;
   background-position: center;
 }
 #guildelines-tile{
@@ -155,7 +155,7 @@ body {
  }
 
  #Webpage-tile{
-  background: url('../images/Webpage.png') no-repeat;
+  background: url('../images/webpage.png') no-repeat;
   background-position: center;
  }
 #menu-tile span, #specials-tile span, #guildelines-tile span, #map-tile span, #ContactUs span, #Webpage-tile span {
