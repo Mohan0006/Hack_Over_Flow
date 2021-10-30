@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #00FA9A;
+  background-color: #faebd7;
 
   border-radius: 0;
   border: 0;
@@ -25,7 +25,7 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: black;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -121,15 +121,16 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #specials-tile, #guildelines-tile {
+#menu-tile, #specials-tile, #guildelines-tile, #map-tile, #ContactUs, #Webpage-tile{
   height: 250px;
-  width: 100%;
+  width: 360px;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #guildelines-tile:hover {
+
+#menu-tile:hover, #specials-tile:hover, #guildelines-tile:hover, #map-tile:hover,  #ContactUs:hover, #Webpage-tile: hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
@@ -144,7 +145,20 @@ body {
   background: url('../images/guidelines.jpg') no-repeat;
   background-position: center;
 }
-#menu-tile span, #specials-tile span, #guildelines-tile span {
+#map-tile{
+  background: url('../images/map.jpg') no-repeat;
+  background-position: center;
+}
+ #ContactUs{
+  background: url('../images/call.jpg') no-repeat;
+  background-position: center;
+ }
+
+ #Webpage-tile{
+  background: url('../images/Webpage.png') no-repeat;
+  background-position: center;
+ }
+#menu-tile span, #specials-tile span, #guildelines-tile span, #map-tile span, #ContactUs span, #Webpage-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -158,14 +172,17 @@ body {
 }
 /* END HOME PAGE */
 
-/* MENU CATEGORIES PAGE */
+/* HOSPITALS */
+
 .category-tile { 
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 15px;
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 200px;
 }
 .category-tile span {
   position: absolute;
@@ -185,8 +202,150 @@ body {
 
 #menu-categories-title + div {
   margin-bottom: 50px;
+
 }
-/* END MENU CATEGORIES PAGE */
+/* HOSPITALS */
+/*Government Hospitals*/
+.hospital-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 200px;
+}
+.hospital-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.hospital-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/*KGH*/
+.kgh-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 1200px;
+  height: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+.kgh-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.kgh-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#information{
+  top : 40px;
+  background-color: blue;
+  font-style: italic;
+  padding : 30px;
+  margin: 30px;
+}
+
+section #phone {
+  color: black;
+  font-style: italic;
+  text-align: center;
+
+}
+
+
+/*Oxygen*/
+
+#oxygen{
+  font-size: 200%;
+  color: darkblue;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Fruktur', cursive;
+}
+
+
+#oxygen h2{
+  font-size: 120%;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Fruktur', cursive;
+  left : 10px;
+}
+
+#oxygen_info {
+  font-size: 130%;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  background: black;
+}
+
+/*Guidelines*/
+
+#Guide {
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+}
+#Guide span{
+  color: red;
+  font-size: 150%;
+  left : 300px;
+}
+
+#precations{
+  font-size: 230%;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  background: black;
+  font-family: 'Lobster', cursive;
+}
+#precations h2{
+  font-size: 110%;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SINGLE CATEGORY PAGE */
 .menu-item-tile {
