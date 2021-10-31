@@ -1,3 +1,12 @@
+
+a: hover{
+  color: orange;
+}
+a:visited{
+  text-decoration: none;
+  color: blue;
+}
+
 body {
   font-size: 16px;
   color: #fff;
@@ -8,13 +17,12 @@ body {
 /** HEADER **/
 #header-nav {
   background-color: #faebd7;
-
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../images/who.png');
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -83,6 +91,105 @@ body {
 }
 /* END HEADER */
 
+
+.status {
+    background-color: #ff7200;
+    padding-top: 10px;
+    border-radius: 30px;
+    border-color: red;
+    border-width: 5px;    
+}
+.status marquee{
+  color : blue;
+  font-size: 150%;
+}
+
+.status a:hover{
+    color: black;
+}
+
+
+a:visited{
+  text-decoration: none;
+  color: #ddd;
+}
+a:hover{
+  color: #ff7200;
+  text-decoration: none;
+
+}
+
+
+.HelplineNumbers{
+  left:42%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  width: 250px;
+  height: 45px;
+  background-color:mediumblue;
+  position: relative;
+  border-radius: 15px;
+  background-size: cover;
+  padding-bottom: 30px;
+  text-align:center;
+ 
+}
+
+a{
+  color:  white;
+}
+#phone1{
+ padding-top: 10px;
+  padding-bottom: 2px;
+ background-color :mediumblue;
+margin-bottom:10px;
+ margin-top: 10px;
+ border-radius:15px
+}
+#phone2{
+  padding-top: 10px;
+  padding-bottom: 2px;
+  color: #000;
+ background-color :mediumblue;
+ margin-top: 20px;
+ border-radius: 10px;
+
+}
+
+#phone3, #phone4, #phone5, #phone6, #phone7, #phone8, #phone9{
+  padding-top: 10px;
+  padding-bottom: 2px;
+  color: #000;
+ background-color :mediumblue;
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+
+
+.Contactus{
+  margin-left: 10%;
+  padding: 10px;
+  color : black;
+  font-size: 150%;
+}
+
+
+
+.panel-footer1 {
+  margin-top: 450px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer1 div.row {
+  margin-bottom: 35px;
+}
+
+
+
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
@@ -115,8 +222,12 @@ body {
 
 
 
+
+
+
 /* HOME PAGE */
 .container .jumbotron {
+  margin-top: 40px;
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
 }
@@ -306,26 +417,46 @@ section #phone {
 
 /*Guidelines*/
 
-#Guide {
-  padding: 20px;
-  margin: 20px;
-  font-family: 'Lobster', cursive;
-}
-#Guide span{
-  color: red;
-  font-size: 150%;
-  left : 300px;
+.Guide{
+  left:42%;
+  
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  width: 250px;
+  height: 45px;
+  background-color:mediumblue;
+  position: relative;
+  border-radius: 15px;
+  background-size: cover;
+
+  padding-bottom: 30px;
+  text-align:center;
+ 
 }
 
-#precations{
+#reg{
+  padding-top: 10px;
+  padding-bottom: 2px;
+  color: #000;
+  margin-top: 10px;
+}
+.Guide a:hover{
+  color: #ff7200;
+  text-decoration: none;
+
+}
+
+.precations{
   font-size: 230%;
   color: white;
   padding: 30px;
   margin: 30px;
   background: black;
   font-family: 'Lobster', cursive;
+  
 }
-#precations h2{
+.precations h2{
   font-size: 110%;
   color: white;
   font-weight: bold;
@@ -406,7 +537,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    background: url('../images/who-med.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
