@@ -378,6 +378,15 @@ margin-bottom:10px;
   margin: 30px;
 }
 
+#availability{
+  top : 10px;
+  background-color: blue;
+  font-style: italic;
+  padding : 30px;
+  margin: 30px;
+
+}
+
 section #phone {
   color: black;
   font-style: italic;
